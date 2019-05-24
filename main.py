@@ -31,5 +31,6 @@ with open('cards.xml' , 'a+') as myfile:
         myfile.write('      <set picURL="' + getimageURL(x['Code']) + '">' + x['Set'] + '</set>\n')
         myfile.write('      <name>' + card_name + ' (' + x['Code'][:-1] + ')' + '</name>\n')
         myfile.write('    </card>\n')
+
     myfile.write('  </cards>\n')
     myfile.write('</cockatrice_carddatabase>')
