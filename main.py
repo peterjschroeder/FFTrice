@@ -7,14 +7,12 @@ b = []
 for x in a:
     b.append(x['Set'])
 
-b = set(b)
-
-with open('cards.txt' , 'a+') as myfile:
+with open('cards.xml' , 'a+') as myfile:
     myfile.write('<?xml version="1.0" encoding="UTF-8"?>\n')
     myfile.write('<cockatrice_carddatabase version="3">\n')
     myfile.write('  <sets>\n')
 
-    for x in b:
+    for x in set(b):
         myfile.write('    <set>\n')
         myfile.write('      <name>' + x + '</name>\n')
         myfile.write('      <longname>' + x + '</longname>\n')
@@ -25,9 +23,13 @@ with open('cards.txt' , 'a+') as myfile:
     myfile.write('  <cards>\n')
 
     for x in a:
+        card_name = x['Name_EN']
+
+        card_name = card_name.replace(u"\u00FA", "u")  #Addresses u Cuchulainn, the Impure 2-133R
+
         myfile.write('    <card>\n')
         myfile.write('      <set picURL="' + getimageURL(x['Code']) + '">' + x['Set'] + '</set>\n')
-        myfile.write('      <name>' + x['Name_EN'] + ' (' + x['Code'] + ')' + '</name>\n')
+        myfile.write('      <name>' + card_name + ' (' + x['Code'] + ')' + '</name>\n')
         myfile.write('    </card>\n')
     myfile.write('  </cards>\n')
     myfile.write('</cockatrice_carddatabase>')
