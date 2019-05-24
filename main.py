@@ -25,7 +25,7 @@ with open('cards.xml' , 'a+') as myfile:
     for x in a:
         card_name = x['Name_EN']
 
-        card_name = card_name.replace(u"\u00FA", "u")  #Addresses u Cuchulainn, the Impure 2-133R
+        card_name = card_name.replace(u"\u00FA", "u")  # Addresses u Cuchulainn, the Impure 2-133R
 
         myfile.write('    <card>\n')
         myfile.write('      <set picURL="' + getimageURL(x['Code']) + '">' + x['Set'] + '</set>\n')
