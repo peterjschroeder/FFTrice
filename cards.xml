@@ -2,18 +2,18 @@
 <cockatrice_carddatabase version="3">
   <sets>
     <set>
+      <name>Opus VI</name>
+      <longname>Opus VI</longname>
+      <settype>Custom</settype>
+    </set>
+    <set>
       <name>Opus VIII</name>
       <longname>Opus VIII</longname>
       <settype>Custom</settype>
     </set>
     <set>
-      <name>Opus V</name>
-      <longname>Opus V</longname>
-      <settype>Custom</settype>
-    </set>
-    <set>
-      <name>Opus IV</name>
-      <longname>Opus IV</longname>
+      <name>Opus VII</name>
+      <longname>Opus VII</longname>
       <settype>Custom</settype>
     </set>
     <set>
@@ -22,8 +22,8 @@
       <settype>Custom</settype>
     </set>
     <set>
-      <name>Opus VI</name>
-      <longname>Opus VI</longname>
+      <name>Opus I</name>
+      <longname>Opus I</longname>
       <settype>Custom</settype>
     </set>
     <set>
@@ -32,13 +32,13 @@
       <settype>Custom</settype>
     </set>
     <set>
-      <name>Opus I</name>
-      <longname>Opus I</longname>
+      <name>Opus IV</name>
+      <longname>Opus IV</longname>
       <settype>Custom</settype>
     </set>
     <set>
-      <name>Opus VII</name>
-      <longname>Opus VII</longname>
+      <name>Opus V</name>
+      <longname>Opus V</longname>
       <settype>Custom</settype>
     </set>
   </sets>
@@ -8086,7 +8086,7 @@ When Guy is put from the field into the Break Zone, activate all the Forwards yo
       <manacost>2</manacost>
     </card>
     <card>
-      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/1-011C_eg.jpg">Opus VI</set>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/6-006C_eg.jpg">Opus VI</set>
       <name>Evoker (6-006)</name>
       <pt></pt>
       <text></text>
@@ -8346,7 +8346,7 @@ Choose 1 dull Forward. Deal it 9000 damage.</text>
       <manacost>3</manacost>
     </card>
     <card>
-      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/1-040C_eg.jpg">Opus VI</set>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/6-032C_eg.jpg">Opus VI</set>
       <name>Summoner (6-032)</name>
       <pt></pt>
       <text></text>
@@ -8458,7 +8458,7 @@ If you control a Category XIII Forward other than Snow, Snow gains +1000 power.
       <manacost>4</manacost>
     </card>
     <card>
-      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/1-068C_eg.jpg">Opus VI</set>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/6-043C_eg.jpg">Opus VI</set>
       <name>Evoker (6-043)</name>
       <pt></pt>
       <text></text>
@@ -8752,7 +8752,7 @@ Indomitable Charge (S)(Earth)(Earth): Until the end of the turn, all the Forward
       <manacost>2</manacost>
     </card>
     <card>
-      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/1-105C_eg.jpg">Opus VI</set>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/6-073C_eg.jpg">Opus VI</set>
       <name>Evoker (6-073)</name>
       <pt></pt>
       <text></text>
@@ -8980,7 +8980,7 @@ When Seifer deals damage to your opponent, all the Forwards opponent controls lo
       <manacost>3</manacost>
     </card>
     <card>
-      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/1-138C_eg.jpg">Opus VI</set>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/6-096C_eg.jpg">Opus VI</set>
       <name>Summoner (6-096)</name>
       <pt></pt>
       <text></text>
@@ -9125,7 +9125,7 @@ Jewel (S)(Dull): Search for 1 Summon and add it to your hand.</text>
       <manacost>3</manacost>
     </card>
     <card>
-      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/1-159C_eg.jpg">Opus VI</set>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/6-110C_eg.jpg">Opus VI</set>
       <name>Evoker (6-110)</name>
       <pt></pt>
       <text></text>
@@ -10829,7 +10829,7 @@ Choose 1 Forward. Deal it 10000 damage. If it is put from the field into the Bre
       <manacost>1</manacost>
     </card>
     <card>
-      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/1-023R_eg.jpg">Opus VIII</set>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/8-017C_eg.jpg">Opus VIII</set>
       <name>Brynhildr (8-017)</name>
       <pt></pt>
       <text>[EX BURST] Choose 1 Forward. Deal it 7000 damage.</text>
@@ -11052,7 +11052,7 @@ When Celes deals damage to your opponent, choose 1 Forward opponent controls. Fr
       <manacost>3</manacost>
     </card>
     <card>
-      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/2-044R_eg.jpg">Opus VIII</set>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/8-040C_eg.jpg">Opus VIII</set>
       <name>Mateus, the Corrupt (8-040)</name>
       <pt></pt>
       <text>[EX BURST] Your opponent puts 1 attacking Forward he/she controls into the Break Zone.</text>
@@ -11315,7 +11315,7 @@ When Yuffie attacks, deal 1000 damage to all the Forwards opponent controls.</te
       <manacost>3</manacost>
     </card>
     <card>
-      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/3-071H_eg.jpg">Opus VIII</set>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/8-066C_eg.jpg">Opus VIII</set>
       <name>Chaos, Walker of the Wheel (8-066)</name>
       <pt></pt>
       <text>[EX BURST] Choose 1 Forward opponent controls. Break it. If that Forward is put into the Break Zone, your opponent may play 1 Forward from their hand onto the field.</text>
@@ -11492,7 +11492,7 @@ When Prompto enters the field, choose 1 Forward opponent controls. Break it.</te
       <manacost>6</manacost>
     </card>
     <card>
-      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/1-117R_eg.jpg">Opus VIII</set>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/8-083C_eg.jpg">Opus VIII</set>
       <name>Hecatoncheir (8-083)</name>
       <pt></pt>
       <text>Choose 1 Backup of cost 3 or more. Break it.</text>
@@ -11607,7 +11607,7 @@ Put Electric Jellyfish into the Break Zone: Choose 1 Forward. Dull it.</text>
       <manacost>2</manacost>
     </card>
     <card>
-      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/1-124R_eg.jpg">Opus VIII</set>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/8-094C_eg.jpg">Opus VIII</set>
       <name>Odin (8-094)</name>
       <pt></pt>
       <text>[EX BURST] Choose 1 Forward. Break it.</text>
@@ -11915,7 +11915,7 @@ Solution 9 (S)(Water)(Water): Choose 1 Forward. Until the end of the turn, it lo
       <manacost>3</manacost>
     </card>
     <card>
-      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/1-170C_eg.jpg">Opus VIII</set>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/8-125C_eg.jpg">Opus VIII</set>
       <name>Fairy (8-125)</name>
       <pt></pt>
       <text>[EX BURST] Choose 1 Forward. Activate it. Draw 1 card.</text>

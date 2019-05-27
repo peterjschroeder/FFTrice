@@ -1,8 +1,28 @@
 from fftcg_parser import *
 import re
 
-a = loadJson('https://fftcg.square-enix-games.com/getcards')
 
+def addcard(theset, name, code,  pt, text, card_type, color, cost, file):
+    file.write('    <card>\n')
+    file.write('      <set picURL="' + getimageURL(code) + '">' + theset + '</set>\n')
+    file.write('      <name>' + name + ' (' + code[:-1] + ')' + '</name>\n')
+    file.write('      <pt>' + pt + '</pt>\n')
+    file.write('      <text>' + prettyTrice(text) + '</text>\n')
+    file.write(card_type)
+    file.write('      <color>' + prettyTrice(color) + '</color>\n')
+    file.write('      <manacost>' + prettyTrice(cost) + '</manacost>\n')
+    file.write('    </card>\n')
+
+
+def addset(theset, file):
+    file.write('    <set>\n')
+    file.write('      <name>' + theset + '</name>\n')
+    file.write('      <longname>' + theset + '</longname>\n')
+    file.write('      <settype>Custom</settype>\n')
+    file.write('    </set>\n')
+
+
+a = loadJson('https://fftcg.square-enix-games.com/getcards')
 b = []
 
 for x in a:
@@ -14,52 +34,43 @@ with open('cards.xml', 'a+', encoding='utf8') as myfile:
     myfile.write('  <sets>\n')
 
     for x in set(b):
-        myfile.write('    <set>\n')
-        myfile.write('      <name>' + x + '</name>\n')
-        myfile.write('      <longname>' + x + '</longname>\n')
-        myfile.write('      <settype>Custom</settype>\n')
-        myfile.write('    </set>\n')
+        addset(x, myfile)
 
     myfile.write('  </sets>\n')
     myfile.write('  <cards>\n')
 
     for x in a:
         card_name = x['Name_EN']
-
         card_name = card_name.replace(u"\u00FA", "u")  # Addresses u Cuchulainn, the Impure 2-133R
 
         card_type = str('      <type>' + prettyTrice(x['Type_EN']) + ' - '+ prettyTrice(x['Category_1']) + ' - ' + prettyTrice(x['Job_EN']) + '</type>\n')
         card_type = card_type.replace(' - ' + u"\u2015" + '</type>', '</type>')
         card_type = card_type.replace(' - </type>', '</type>')
+
         card_power = x['Power']
-        card_power = card_power.replace(u"\uFF0D", '')
+        card_power = card_power.replace(u"\uFF0D", "")
         card_power = card_power.replace(u"\u2015", "")
+
         card_code = x['Code']
 
-        if re.search(r'\d\-\d{3}[a-zA-Z]/', x['Code']):
+        card_cost = x['Cost']
+
+        card_text = x['Text_EN']
+
+        card_element = x['Element']
+
+        card_set = x['Set']
+
+        if re.search(r'\d-\d{3}[a-zA-Z]/', card_code):
             b = card_code.replace('(' ,'').replace(')', '').split('/')
 
             for y in b:
-                myfile.write('    <card>\n')
-                myfile.write('      <set picURL="' + getimageURL(x['Code']) + '">' + x['Set'] + '</set>\n')
-                myfile.write('      <name>' + card_name + ' (' + str(y[:-1]) + ')' + '</name>\n')
-                myfile.write('      <pt>' + card_power + '</pt>\n')
-                myfile.write('      <text>' + prettyTrice(x['Text_EN']) + '</text>\n')
-                myfile.write(card_type)
-                myfile.write('      <color>' + prettyTrice(x['Element']) + '</color>\n')
-                myfile.write('      <manacost>' + prettyTrice(x['Cost']) + '</manacost>\n')
-                myfile.write('    </card>\n')
+                addcard(card_set, card_name, str(y), card_power, card_text, card_type, card_element, card_cost, myfile)
 
         else:
-            myfile.write('    <card>\n')
-            myfile.write('      <set picURL="' + getimageURL(x['Code']) + '">' + x['Set'] + '</set>\n')
-            myfile.write('      <name>' + card_name + ' (' + x['Code'][:-1] + ')' + '</name>\n')
-            myfile.write('      <pt>' + card_power + '</pt>\n')
-            myfile.write('      <text>' + prettyTrice(x['Text_EN']) + '</text>\n')
-            myfile.write(card_type)
-            myfile.write('      <color>' + prettyTrice(x['Element']) + '</color>\n')
-            myfile.write('      <manacost>' + prettyTrice(x['Cost']) + '</manacost>\n')
-            myfile.write('    </card>\n')
+            addcard(card_set, card_name, card_code, card_power, card_text, card_type, card_element, card_cost, myfile)
 
     myfile.write('  </cards>\n')
     myfile.write('</cockatrice_carddatabase>')
+
+
