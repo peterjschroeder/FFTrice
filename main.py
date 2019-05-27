@@ -64,8 +64,15 @@ with open('cards.xml', 'a+', encoding='utf8') as myfile:
         if re.search(r'\d-\d{3}[a-zA-Z]/', card_code):
             b = card_code.replace('(' ,'').replace(')', '').split('/')
 
-            for y in b:
-                addcard(card_set, card_name, str(y), card_power, card_text, card_type, card_element, card_cost, myfile)
+            # As of Opus 8, reprints in the JSON appear as original printing, and the reprint with both codes
+            # so far this is consistent and nothing has been reprint more than once below may not work if they change
+            # things up may need for loop to iterate over split codes
+
+            # [btawa@backdoor ~]$ curl -s https://fftcg.square-enix-games.com/getcards | jq . |grep 1-011
+            #      "Code": "1-011C",
+            #      "Code": "6-006C/1-011C",
+
+            addcard(card_set, card_name, str(b[0]), card_power, card_text, card_type, card_element, card_cost, myfile)
 
         else:
             addcard(card_set, card_name, card_code, card_power, card_text, card_type, card_element, card_cost, myfile)
