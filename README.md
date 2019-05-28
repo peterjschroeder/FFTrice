@@ -1,6 +1,6 @@
 # FFTrice
 
-FFTrice is a utility to generate a XML for Final Fantasy the Trading Card Game.
+FFTrice is a utility to generate a Cockatrice XML for Final Fantasy TCG.
 
 As of Opus 8, this repository contains a pre-built xml for Opus1-8.
 
