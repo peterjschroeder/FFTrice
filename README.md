@@ -4,6 +4,9 @@ FFTrice is a utility which generates an Final Fantasy TCG XML file for use with 
 
 As of Opus 8, this repository contains a pre-built xml for Opus1-8.
 
+## Features
+- All rarity tags are removed from card codes.  This allows easier importing of decks from FFDecks.
+
 ## Requirements
 - Python 3.x
 - Cockatrice - https://cockatrice.github.io/
@@ -19,3 +22,5 @@ As of Opus 8, this repository contains a pre-built xml for Opus1-8.
 # Installation into Cockatrice
 - Please see Cockatrice custom set documentation for assistance with importing this set.
     - https://github.com/Cockatrice/Cockatrice/wiki/Custom-Cards-&-Sets
+    
+   
