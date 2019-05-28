@@ -1,12 +1,12 @@
 # FFTrice
 
-FFTrice is a utility to generate a Cockatrice XML for Final Fantasy TCG.
+FFTrice is a utility which generates an Final Fantasy TCG XML file for use with Cockatrice.
 
 As of Opus 8, this repository contains a pre-built xml for Opus1-8.
 
 ## Requirements
 - Python 3.x
-- Cockatrice
+- Cockatrice - https://cockatrice.github.io/
 
 # Using main.py
 - Download files from git repository
@@ -18,4 +18,4 @@ As of Opus 8, this repository contains a pre-built xml for Opus1-8.
 
 # Installation into Cockatrice
 - Please see Cockatrice custom set documentation for assistance with importing this set.
-    >https://github.com/Cockatrice/Cockatrice/wiki/Custom-Cards-&-Sets
+    - https://github.com/Cockatrice/Cockatrice/wiki/Custom-Cards-&-Sets
