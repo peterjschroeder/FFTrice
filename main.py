@@ -3,9 +3,15 @@ import re
 
 
 def addcard(theset, name, code,  pt, text, card_type, color, cost, file):
+
+    if re.search('pr' , code.lower()):
+        code = code
+    else:
+        code = code[:-1]
+
     file.write('    <card>\n')
     file.write('      <set picURL="' + getimageURL(code) + '">' + theset + '</set>\n')
-    file.write('      <name>' + name + ' (' + code[:-1] + ')' + '</name>\n')
+    file.write('      <name>' + name + ' (' + code + ')' + '</name>\n')
     file.write('      <pt>' + pt + '</pt>\n')
     file.write('      <text>' + prettyTrice(text) + '</text>\n')
     file.write(card_type)
