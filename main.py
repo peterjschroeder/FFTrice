@@ -11,9 +11,6 @@ def addcard(theset, name, code,  pt, text, card_type, color, cost, file):
     else:
         code = code[:-1]
 
-
-
-
     file.write('    <card>\n')
     file.write('      <set picURL="' + getimageURL(code_for_image) + '">' + theset + '</set>\n')
     file.write('      <name>' + name + ' (' + code + ')' + '</name>\n')
