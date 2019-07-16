@@ -2,28 +2,8 @@
 <cockatrice_carddatabase version="3">
   <sets>
     <set>
-      <name>Opus V</name>
-      <longname>Opus V</longname>
-      <settype>Custom</settype>
-    </set>
-    <set>
-      <name>Opus III</name>
-      <longname>Opus III</longname>
-      <settype>Custom</settype>
-    </set>
-    <set>
       <name>Opus VIII</name>
       <longname>Opus VIII</longname>
-      <settype>Custom</settype>
-    </set>
-    <set>
-      <name>Opus I</name>
-      <longname>Opus I</longname>
-      <settype>Custom</settype>
-    </set>
-    <set>
-      <name>Opus VII</name>
-      <longname>Opus VII</longname>
       <settype>Custom</settype>
     </set>
     <set>
@@ -32,13 +12,38 @@
       <settype>Custom</settype>
     </set>
     <set>
+      <name>Opus VII</name>
+      <longname>Opus VII</longname>
+      <settype>Custom</settype>
+    </set>
+    <set>
+      <name>Opus I</name>
+      <longname>Opus I</longname>
+      <settype>Custom</settype>
+    </set>
+    <set>
       <name>Opus VI</name>
       <longname>Opus VI</longname>
       <settype>Custom</settype>
     </set>
     <set>
+      <name>Opus III</name>
+      <longname>Opus III</longname>
+      <settype>Custom</settype>
+    </set>
+    <set>
       <name>Opus II</name>
       <longname>Opus II</longname>
+      <settype>Custom</settype>
+    </set>
+    <set>
+      <name>Opus IX</name>
+      <longname>Opus IX</longname>
+      <settype>Custom</settype>
+    </set>
+    <set>
+      <name>Opus V</name>
+      <longname>Opus V</longname>
       <settype>Custom</settype>
     </set>
   </sets>
@@ -6440,6 +6445,1216 @@ When a Forward opponent controls is put from the field into the Break Zone, choo
       <type>Forward - LOV · XI - Kindred</type>
       <color>Dark</color>
       <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-001C_eg.jpg">Opus IX</set>
+      <name>Irvine (9-001)</name>
+      <pt></pt>
+      <text>When Irvine enters the field, choose 1 Forward. Deal it 5000 damage. If the number of Forwards your opponent controls is greater than the number of Forwards you control, deal it 7000 damage instead.</text>
+      <type>Backup - PICTLOGICA · VIII - Sniper</type>
+      <color>Fire</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-002H_eg.jpg">Opus IX</set>
+      <name>Ifrita (9-002)</name>
+      <pt></pt>
+      <text>Select 1 of the 3 following actions. If you have a total of 5 or more Card Name Ifrita and/or Card Name Ifrit in your Break Zone (before paying the cost for Ifrita), select up to 3 of the 3 following actions instead.
+"Choose 1 Forward. Deal it 7000 damage."
+"Choose 1 Monster of cost 3 or less. Break it."
+"Deal 3000 damage to all the Forwards opponent controls."</text>
+      <type>Summon - MOBIUS</type>
+      <color>Fire</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-003L_eg.jpg">Opus IX</set>
+      <name>Ace (9-003)</name>
+      <pt>8000</pt>
+      <text>[EX BURST] When Ace attacks, choose 1 Forward opponent controls. Deal it 2000 damage for each Job Class Zero Cadet Forward you control.
+When Ace enters the field, reveal the top 7 cards of your deck. Add up to 2 Job Class Zero Cadet other than Card Name Ace among them to your hand. Then, shuffle the other cards revealed and return them to the bottom of your deck.</text>
+      <type>Forward - DFF · TYPE-0 - Class Zero Cadet</type>
+      <color>Fire</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-004C_eg.jpg">Opus IX</set>
+      <name>Ace (9-004)</name>
+      <pt></pt>
+      <text>When Ace enters the field, choose 1 Forward opponent controls. Reveal the top 5 cards of your deck. If you have a Job Class Zero Cadet among them, deal it 7000 damage. Then, shuffle the revealed cards and return them to the bottom of your deck.</text>
+      <type>Backup - DFF · TYPE-0 - Class Zero Cadet</type>
+      <color>Fire</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-005H_eg.jpg">Opus IX</set>
+      <name>King of Eblan (9-005)</name>
+      <pt>7000</pt>
+      <text>If your opponent doesn't control any Forwards, King of Eblan cannot attack. 
+When King of Eblan enters the field, you may search for 1 Card Name Queen of Eblan and play it onto the field.
+</text>
+      <type>Forward - IV - King of Eblan</type>
+      <color>Fire</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-006H_eg.jpg">Opus IX</set>
+      <name>Queen of Eblan (9-006)</name>
+      <pt>7000</pt>
+      <text>If your opponent doesn't control any Forwards, Queen of Eblan cannot attack.
+When Queen of Eblan forms a party with Card Name King of Eblan and attacks, choose 1 Forward opponent controls. Deal it 5000 damage.</text>
+      <type>Forward - IV - Queen of Eblan</type>
+      <color>Fire</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-007H_eg.jpg">Opus IX</set>
+      <name>Gaius (9-007)</name>
+      <pt>8000</pt>
+      <text>[EX BURST] When Gaius enters the field, you may search for 1 Card Name Nero (XIV), Card Name Livia, or Card Name Rhitahtyn and add it to your hand.
+When Gaius or a Category XIV Forward enters your field, choose 1 Forward opponent controls. Deal it 3000 damage.</text>
+      <type>Forward - XIV - General</type>
+      <color>Fire</color>
+      <manacost>6</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-008C_eg.jpg">Opus IX</set>
+      <name>Cyan (9-008)</name>
+      <pt></pt>
+      <text>When Cyan enters the field, until the end of the turn, all the Forwards you control gain +1000 power and Brave.</text>
+      <type>Backup - VI - Samurai</type>
+      <color>Fire</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-009R_eg.jpg">Opus IX</set>
+      <name>Gijuk (9-009)</name>
+      <pt>5000</pt>
+      <text>When Gijuk enters the field, if you control 4 or more Job Headhunter Forwards, deal 5000 damage to all the Forwards opponent controls.</text>
+      <type>Forward - XII - Headhunter</type>
+      <color>Fire</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-010R_eg.jpg">Opus IX</set>
+      <name>King (9-010)</name>
+      <pt>8000</pt>
+      <text>You can discard 1 Job Class Zero Cadet (instead of paying the CP cost) to play King from your hand onto the field.
+When King enters the field, choose 1 Forward. It cannot block this turn.</text>
+      <type>Forward - DFF · TYPE-0 - Class Zero Cadet</type>
+      <color>Fire</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-011R_eg.jpg">Opus IX</set>
+      <name>Clavat (9-011)</name>
+      <pt>7000</pt>
+      <text>When Clavat attacks, choose 1 Forward. Deal it 1000 damage and Clavat gains +1000 power until the end of the turn.</text>
+      <type>Forward - FFCC - Standard Unit</type>
+      <color>Fire</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-012C_eg.jpg">Opus IX</set>
+      <name>Shadow (9-012)</name>
+      <pt></pt>
+      <text>(Fire)(Dull), put Shadow into the Break Zone: Choose 1 Forward. Deal it 8000 damage. You can only use this ability if a Forward you controlled has been put from the field into the Break Zone this turn.</text>
+      <type>Backup - VI - Assassin</type>
+      <color>Fire</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-013C_eg.jpg">Opus IX</set>
+      <name>Fusilier (9-013)</name>
+      <pt></pt>
+      <text>When Fusilier enters the field, you may pay (Fire). When you do so, choose 1 Forward. Deal it 5000 damage.</text>
+      <type>Backup - FFTA2 - Standard Unit</type>
+      <color>Fire</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-014L_eg.jpg">Opus IX</set>
+      <name>Nael (9-014)</name>
+      <pt>9000</pt>
+      <text>When Nael enters the field, reveal the top 3 cards of your deck. Add up to 2 Forwards among them to your hand and put the rest of the cards into the Break Zone.
+Remove 1 Backup from the game: Until the end of the turn, Nael gains +2000 power and Haste.
+Remove 2 Backups from the game: Choose 1 Forward. Deal it 8000 damage.</text>
+      <type>Forward - XIV - General</type>
+      <color>Fire</color>
+      <manacost>6</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-015C_eg.jpg">Opus IX</set>
+      <name>Hume (9-015)</name>
+      <pt>8000</pt>
+      <text>(Fire): Hume gains Brave until the end of the turn.
+(Fire)(1): Hume gains Haste until the end of the turn.</text>
+      <type>Forward - XII - Standard Unit</type>
+      <color>Fire</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-016C_eg.jpg">Opus IX</set>
+      <name>Bwagi (9-016)</name>
+      <pt>5000</pt>
+      <text>When Bwagi attacks, all the Job Headhunter Forwards you control gain +2000 power until the end of the turn.</text>
+      <type>Forward - XII - Headhunter</type>
+      <color>Fire</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-017C_eg.jpg">Opus IX</set>
+      <name>Belias (9-017)</name>
+      <pt></pt>
+      <text>[EX BURST] Choose 1 Forward. Until the end of the turn, it gains +1000 power and First Strike. Draw 1 card. If you have received 4 points of damage or more, it also gains Haste until the end of the turn.</text>
+      <type>Summon - MOBIUS</type>
+      <color>Fire</color>
+      <manacost>1</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-018R_eg.jpg">Opus IX</set>
+      <name>Bergan (9-018)</name>
+      <pt>8000</pt>
+      <text>You can only pay with CP produced by Fire Backups to play Bergan from your hand onto the field. 
+When Bergan blocks or is blocked, deal 7000 damage to the Forward that blocks or is blocked by Bergan.
+(Fire)(1): Choose 1 Forward. Deal it 1000 damage.</text>
+      <type>Forward - MOBIUS · XII - Judge</type>
+      <color>Fire</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-019R_eg.jpg">Opus IX</set>
+      <name>Bomb (9-019)</name>
+      <pt>5000</pt>
+      <text>During your turn, Bomb also becomes a Forward with 5000 power.
+When Bomb is put from the field into the Break Zone, deal 2000 damage to all Forwards.</text>
+      <type>Monster - Crystal Hunt - Bomb</type>
+      <color>Fire</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-020R_eg.jpg">Opus IX</set>
+      <name>Rhitahtyn (9-020)</name>
+      <pt>7000</pt>
+      <text>You must control a Category XIV Forward to play Rhitahtyn from your hand onto the field.
+Brave
+Magitek Missile (Ｓ)(Dull): Choose 1 Forward. At the end of this turn, if you control Rhitahtyn, deal it 10000 damage.</text>
+      <type>Forward - XIV - Faction Commander</type>
+      <color>Fire</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-021R_eg.jpg">Opus IX</set>
+      <name>Varis (9-021)</name>
+      <pt></pt>
+      <text>When Varis enters the field, if the cost to play Varis was paid with CP of exactly 3 different Elements, you may search for 1 card and add it to your hand.
+(2)(Dull), put Varis into the Break Zone: Choose 1 Category XIV Forward in your Break Zone. Add it to your hand.</text>
+      <type>Backup - XIV - Emperor</type>
+      <color>Ice</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-022L_eg.jpg">Opus IX</set>
+      <name>Vayne (9-022)</name>
+      <pt>9000</pt>
+      <text>All the Forwards opponent controls gain "At the end of your turn, if you don't pay (1), break this Forward."</text>
+      <type>Forward - DFF · XII - Consul</type>
+      <color>Ice</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-023R_eg.jpg">Opus IX</set>
+      <name>Quistis (9-023)</name>
+      <pt>7000</pt>
+      <text>[EX BURST] When Quistis enters the field, reveal the top 5 cards of your deck. Add 1 Category VIII Forward among them to your hand and return the other cards to the bottom of your deck in any order.
+The Job SeeD Candidate Forwards you control gain +1000 power.
+LV? Death (Ｓ)(Ice)(Dull): Reveal the top card of your deck. Break all Forwards opponent controls with the same cost as the revealed card. Add the revealed card to your hand.</text>
+      <type>Forward - VIII - Instructor</type>
+      <color>Ice</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-024C_eg.jpg">Opus IX</set>
+      <name>Airborne Trooper (9-024)</name>
+      <pt>8000</pt>
+      <text>Airborne Trooper cannot attack.
+When a Forward other than Airborne Trooper enters your field, Airborne Trooper loses all its abilities until the end of the turn.</text>
+      <type>Forward - TYPE-0 - Standard Unit</type>
+      <color>Ice</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-025H_eg.jpg">Opus IX</set>
+      <name>Zalera (9-025)</name>
+      <pt></pt>
+      <text>Choose 1 dull Forward of cost 2, 3, 5 or 7. Break it.</text>
+      <type>Summon - MOBIUS</type>
+      <color>Ice</color>
+      <manacost>1</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-026C_eg.jpg">Opus IX</set>
+      <name>Cid Aulstyne (9-026)</name>
+      <pt></pt>
+      <text>[EX BURST] When Cid Aulstyne enters the field, choose 1 Forward. If your opponent has 2 cards or less in his/her hand, dull it and Freeze it. If your opponent has no cards in his/her hand, break it instead.</text>
+      <type>Backup - PICTLOGICA · TYPE-0 - Grand Marshal</type>
+      <color>Ice</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-027H_eg.jpg">Opus IX</set>
+      <name>Squall (9-027)</name>
+      <pt>8000</pt>
+      <text>The cost required to play Squall onto the field is reduced by 1 for each Category VIII Forward you control (it cannot become 0).
+When Squall enters the field or attacks, choose 1 Character opponent controls. Dull it.</text>
+      <type>Forward - VIII - SeeD Candidate</type>
+      <color>Ice</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-028L_eg.jpg">Opus IX</set>
+      <name>Azure Dragon l'Cie Soryu (9-028)</name>
+      <pt>9000</pt>
+      <text>[EX BURST] When Azure Dragon l'Cie Soryu attacks, reveal the top card of your deck. If it is an Ice card, add it to your hand.
+Discard 1 Ice card: Choose 1 Character. Freeze it.
+Discard 3 Ice cards: Choose 1 Forward. Break it.</text>
+      <type>Forward - TYPE-0 - L'Cie</type>
+      <color>Ice</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-029C_eg.jpg">Opus IX</set>
+      <name>Terra (9-029)</name>
+      <pt>8000</pt>
+      <text>If a Forward is dealt damage by your Summon, the damage increases by 2000 instead.</text>
+      <type>Forward - VI - Magitek Knight</type>
+      <color>Ice</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-030H_eg.jpg">Opus IX</set>
+      <name>Hurdy (9-030)</name>
+      <pt></pt>
+      <text>When Hurdy enters the field, reveal the top card of your deck. If it is a Character, add it to your hand.
+(Dull), put Hurdy into the Break Zone: Choose 1 Category FFTA2 Forward in your Break Zone. Add it to your hand.</text>
+      <type>Backup - FFTA2 - Moogle</type>
+      <color>Ice</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-031R_eg.jpg">Opus IX</set>
+      <name>Hundlegs (9-031)</name>
+      <pt>5000</pt>
+      <text>During your turn, Hundlegs also becomes a Forward with 5000 power.
+When Hundlegs enters the field or when Hundlegs is put from the field into the Break Zone, choose 1 Forward opponent controls. Dull it.</text>
+      <type>Monster - TYPE-0 - Hundlegs</type>
+      <color>Ice</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-032C_eg.jpg">Opus IX</set>
+      <name>Mind Flayer (9-032)</name>
+      <pt></pt>
+      <text>[EX BURST] Choose 1 Forward opponent controls. Dull it. Draw 1 card.</text>
+      <type>Summon - IV</type>
+      <color>Ice</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-033C_eg.jpg">Opus IX</set>
+      <name>Class Ninth Moogle (9-033)</name>
+      <pt></pt>
+      <text>If Class Ninth Moogle is on the field, Class Ninth Moogle can produce Wind CP.</text>
+      <type>Backup - TYPE-0 - Moogle</type>
+      <color>Ice</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-034R_eg.jpg">Opus IX</set>
+      <name>Class Eleventh Moogle (9-034)</name>
+      <pt></pt>
+      <text>(1)(Dull): Choose 1 Ice Forward you control. It gains +1000 power until the end of the turn.</text>
+      <type>Backup - TYPE-0 - Moogle</type>
+      <color>Ice</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-035R_eg.jpg">Opus IX</set>
+      <name>Yuke (9-035)</name>
+      <pt>7000</pt>
+      <text>When Yuke is blocked, your opponent discards 1 card from his/her hand.</text>
+      <type>Forward - FFCC - Standard Unit</type>
+      <color>Ice</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-036H_eg.jpg">Opus IX</set>
+      <name>Ghost (9-036)</name>
+      <pt>3000</pt>
+      <text>When a Category VI Forward enters your field, you may pay (Ice)(Ice). When you do so, play Ghost onto the field. This effect will trigger only if Ghost is in the Break Zone.
+Possess (Ｓ)(Ice)(Ice)(2)(Dull): Choose 1 Forward. Remove it and Ghost from the game.</text>
+      <type>Forward - VI - Ghost</type>
+      <color>Ice</color>
+      <manacost>1</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-037C_eg.jpg">Opus IX</set>
+      <name>Laguna (9-037)</name>
+      <pt>8000</pt>
+      <text>When Laguna enters the field, you may search for 1 Ice Forward and add it to your hand.</text>
+      <type>Forward - DFF · VIII - Marksman</type>
+      <color>Ice</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-038R_eg.jpg">Opus IX</set>
+      <name>Rinoa (9-038)</name>
+      <pt>5000</pt>
+      <text>When Rinoa or a Category VIII Forward enters your field, select 1 of the 3 following actions. If the Forward is Card Name Squall, select up to 3 of the 3 following actions instead.
+"Choose 1 Forward. Dull it." "Choose 1 Forward. Freeze it." "Choose 1 Category VIII Forward. Until the end of the turn, it gains +1000 power and First Strike."</text>
+      <type>Forward - VIII - Resistance Fighter</type>
+      <color>Ice</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-039C_eg.jpg">Opus IX</set>
+      <name>Locke (9-039)</name>
+      <pt></pt>
+      <text>When Locke enters the field, select 1 card type. Turn over one card at a time from the top of your deck until a selected type is revealed. Add it to your hand. Then, shuffle the other cards revealed and return them to the bottom of your deck.</text>
+      <type>Backup - VI - Treasure Hunter</type>
+      <color>Ice</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-040C_eg.jpg">Opus IX</set>
+      <name>Nu Mou (9-040)</name>
+      <pt></pt>
+      <text>When Nu Mou enters the field, you may pay (Ice). When you do so, choose 1 Forward or Monster. Dull it and Freeze it.</text>
+      <type>Backup - XII - Standard Unit</type>
+      <color>Ice</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-041R_eg.jpg">Opus IX</set>
+      <name>Ahriman (9-041)</name>
+      <pt>7000</pt>
+      <text>During your turn, Ahriman also becomes a Forward with 7000 power.
+When Ahriman deals damage to your opponent, choose 1 Forward of cost 5 or more opponent controls. Break it.</text>
+      <type>Monster - Crystal Hunt - Ahriman</type>
+      <color>Wind</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-042H_eg.jpg">Opus IX</set>
+      <name>Adelle (9-042)</name>
+      <pt>7000</pt>
+      <text>If you control a Category FFTA2 Forward other than Adelle, Adelle gains +2000 power and Haste.
+If you control 5 or more Backups, Adelle cannot be blocked.</text>
+      <type>Forward - FFTA2 - Heritor</type>
+      <color>Wind</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-043R_eg.jpg">Opus IX</set>
+      <name>Vaan (9-043)</name>
+      <pt>7000</pt>
+      <text>You can dull 2 active Job Sky Pirate Forwards you control (instead of paying the CP cost) to play Vaan from your hand onto the field.</text>
+      <type>Forward - DFF · XII - Sky Pirate</type>
+      <color>Wind</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-044C_eg.jpg">Opus IX</set>
+      <name>Viera (9-044)</name>
+      <pt></pt>
+      <text>When Viera enters the field, you may pay (Wind). When you do so, deal 3000 damage to all the Forwards opponent controls.</text>
+      <type>Backup - XII - Standard Unit</type>
+      <color>Wind</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-045H_eg.jpg">Opus IX</set>
+      <name>Edge (9-045)</name>
+      <pt>7000</pt>
+      <text>Back Attack
+You can only pay with CP produced by Wind Backups to play Edge from your hand onto the field. 
+When Edge enters the field, select 1 of the 2 following actions.
+"Choose 1 Forward. Deal it 4000 damage." "Choose 1 Category IV Forward other than Edge. It gains +4000 power until the end of the turn."</text>
+      <type>Forward - LOV · IV - Ninja</type>
+      <color>Wind</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-046H_eg.jpg">Opus IX</set>
+      <name>Shemhazai (9-046)</name>
+      <pt></pt>
+      <text>Select 1 of the 3 following actions.
+"Choose 1 Backup of cost 3 or more. Return it to its owner's hand."
+"Choose 1 Monster of cost 3 or more. Break it."
+"Activate all the Forwards you control."</text>
+      <type>Summon - MOBIUS</type>
+      <color>Wind</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-047C_eg.jpg">Opus IX</set>
+      <name>Sylph (9-047)</name>
+      <pt></pt>
+      <text>[EX BURST] All the Forwards you control gain +1000 power until the end of the turn. Draw 1 card.</text>
+      <type>Summon - DFF</type>
+      <color>Wind</color>
+      <manacost>1</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-048C_eg.jpg">Opus IX</set>
+      <name>Seven (9-048)</name>
+      <pt></pt>
+      <text>Back Attack
+When Seven enters the field, deal 2000 damage to all the Forwards opponent controls.</text>
+      <type>Backup - DFF · TYPE-0 - Class Zero Cadet</type>
+      <color>Wind</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-049R_eg.jpg">Opus IX</set>
+      <name>Selkie (9-049)</name>
+      <pt>7000</pt>
+      <text>When Selkie attacks, reveal the top card of your deck. If it is a Wind Forward, add it to your hand.</text>
+      <type>Forward - FFCC - Standard Unit</type>
+      <color>Wind</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-050C_eg.jpg">Opus IX</set>
+      <name>Chocobo (9-050)</name>
+      <pt>7000</pt>
+      <text>When a Card Name Chocobo you control forms a party and attacks, all Forwards in that party gain +1000 power until the end of the turn.</text>
+      <type>Forward - Special - Standard Unit</type>
+      <color>Wind</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-051R_eg.jpg">Opus IX</set>
+      <name>Fat Chocobo (9-051)</name>
+      <pt></pt>
+      <text>When Fat Chocobo enters the field, reveal the top 5 cards of your deck. Add all Card Name Chocobo among them to your hand and return the other cards to the bottom of your deck in any order.</text>
+      <type>Backup - Crystal Hunt - Chocobo</type>
+      <color>Wind</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-052C_eg.jpg">Opus IX</set>
+      <name>Deuce (9-052)</name>
+      <pt>3000</pt>
+      <text>The Forwards other than Deuce you control gain +1000 power.
+The Job Class Zero Cadet Forwards other than Deuce you control gain +1000 power.</text>
+      <type>Forward - DFF · TYPE-0 - Class Zero Cadet</type>
+      <color>Wind</color>
+      <manacost>1</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-053R_eg.jpg">Opus IX</set>
+      <name>Balthier (9-053)</name>
+      <pt>8000</pt>
+      <text>When Balthier enters the field, select 1 of the 3 following actions.
+"Choose 1 Monster of cost 2 or less. Break it."
+"Choose 1 Forward. Deal it 4000 damage."
+"You may pay (Wind)(Wind). When you do so, choose 1 Forward. Deal it 7000 damage."</text>
+      <type>Forward - DFF · XII - Sky Pirate</type>
+      <color>Wind</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-054C_eg.jpg">Opus IX</set>
+      <name>Penelo (9-054)</name>
+      <pt></pt>
+      <text>When Penelo enters the field, you may search for 1 Job Sky Pirate and add it to your hand.
+(Wind)(Dull): Choose 1 Job Sky Pirate Forward you control. It gains +1000 power until the end of the turn.</text>
+      <type>Backup - DFF · XII - Dancer</type>
+      <color>Wind</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-055C_eg.jpg">Opus IX</set>
+      <name>Fran (9-055)</name>
+      <pt></pt>
+      <text>If you control a Card Name Balthier Forward, the cost for playing Fran onto the field is reduced by 1.
+When Fran enters the field, choose 1 Forward opponent controls. Deal it 3000 damage.
+(Wind)(Wind)(Dull), put Fran into the Break Zone: Choose 1 Forward. Deal it 6000 damage.</text>
+      <type>Backup - DFF · XII - Sky Pirate</type>
+      <color>Wind</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-056H_eg.jpg">Opus IX</set>
+      <name>The Magus Sisters (9-056)</name>
+      <pt>7000</pt>
+      <text>[EX BURST] When The Magus Sisters enters the field, you may search for 1 card and put it into the Break Zone.
+When The Magus Sisters is put from the field into the Break Zone, you may remove 1 Card Name The Magus Sisters in your Break Zone from the game. When you do so, play The Magus Sisters from your Break Zone onto the field dull.</text>
+      <type>Forward - IV - Mage</type>
+      <color>Wind</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-057L_eg.jpg">Opus IX</set>
+      <name>Yiazmat (9-057)</name>
+      <pt>10000</pt>
+      <text>[EX BURST] When Yiazmat enters the field or at the beginning of your Main Phase 1, select 1 of the 3 following actions.
+"Choose 1 Forward of cost 5 or more. Break it."
+"Choose 1 Monster. Break it."
+"Activate all the Characters you control."</text>
+      <type>Forward - MOBIUS · XII - Dragon</type>
+      <color>Wind</color>
+      <manacost>9</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-058L_eg.jpg">Opus IX</set>
+      <name>Luso (9-058)</name>
+      <pt>5000</pt>
+      <text>For each Forward other than Luso you control, Luso gains +1000 power.
+If there are 3 or more different Elements among Forwards you control, Luso gains First Strike and Brave.
+When Luso attacks, if there are 5 or more different Elements among Forwards you control, Luso deals your opponent 1 point of damage.</text>
+      <type>Forward - FFTA2 - Youth</type>
+      <color>Wind</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-059R_eg.jpg">Opus IX</set>
+      <name>Rem (9-059)</name>
+      <pt>6000</pt>
+      <text>If Rem is dealt damage, reduce the damage by 3000 instead.
+At the end of your turn, activate Rem.
+(Dull): Choose 1 Forward other than Rem. Activate it.</text>
+      <type>Forward - TYPE-0 - Class Zero Cadet</type>
+      <color>Wind</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-060C_eg.jpg">Opus IX</set>
+      <name>Rem (9-060)</name>
+      <pt></pt>
+      <text>(Dull): Choose 1 Job Class Zero Cadet Forward you control. It gains +1000 power until the end of the turn.</text>
+      <type>Backup - DFF · TYPE-0 - Class Zero Cadet</type>
+      <color>Wind</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-061R_eg.jpg">Opus IX</set>
+      <name>Heretical Knight Garland (9-061)</name>
+      <pt>8000</pt>
+      <text>If a Forward opponent controlled was put from the field into the Break Zone this turn, the cost required to play Heretical Knight Garland onto the field is reduced by 3.
+(Earth)(Earth)(4): Until the end of the turn, Heretical Knight Garland gains "When Heretical Knight Garland attacks, deal 6000 damage to all the Forwards opponent controls."</text>
+      <type>Forward - MOBIUS - Knight</type>
+      <color>Earth</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-062H_eg.jpg">Opus IX</set>
+      <name>Vincent (9-062)</name>
+      <pt>7000</pt>
+      <text>When Vincent enters the field, you may put 1 Backup you control into the Break Zone. When you do so, choose 1 dull Forward. Deal it 8000 damage.
+Zoom (S)(Earth)(1)(Dull): Choose 1 Backup of cost 3 or more. Break it.</text>
+      <type>Forward - VII - Gunslinger</type>
+      <color>Earth</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-063L_eg.jpg">Opus IX</set>
+      <name>Gabranth (9-063)</name>
+      <pt>5000</pt>
+      <text>[EX BURST] When Gabranth enters the field, you may search for 1 Forward of cost 5 or more and add it to your hand.
+If you have received 6 points of damage or more, Gabranth gains +3000 power and Brave.
+Sentence (S)(Dull): Choose 1 Forward. Deal it 3000 damage and 1000 more damage for each point of damage you have received.</text>
+      <type>Forward - XII - Judge</type>
+      <color>Earth</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-064C_eg.jpg">Opus IX</set>
+      <name>Garif (9-064)</name>
+      <pt>8000</pt>
+      <text>If you control 5 or more Earth Characters, Garif gains +2000 power.</text>
+      <type>Forward - XII - Standard Unit</type>
+      <color>Earth</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-065C_eg.jpg">Opus IX</set>
+      <name>Golem (9-065)</name>
+      <pt></pt>
+      <text>[EX BURST] Choose 1 Forward. It gains +2000 power until the end of the turn. Draw 1 card.</text>
+      <type>Summon - TYPE-0</type>
+      <color>Earth</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-066C_eg.jpg">Opus IX</set>
+      <name>Cor (9-066)</name>
+      <pt>5000</pt>
+      <text>If you control Card Name Regis, Cor gains +2000 power.
+When Cor or a Category XV Forward enters your field, until the end of the turn, Cor gains +1000 power and Brave.</text>
+      <type>Forward - XV - Captain</type>
+      <color>Earth</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-067C_eg.jpg">Opus IX</set>
+      <name>Cid Garlond (9-067)</name>
+      <pt></pt>
+      <text>When Cid Garlond enters the field, reveal the top 4 cards of your deck. Add 1 Earth Character among them to your hand and return the other cards to the bottom of your deck in any order.
+(Earth)(Dull), put Cid Garlond into the Break Zone: Choose 1 Category XIV Character in your Break Zone. Add it to your hand.</text>
+      <type>Backup - XIV - Magitek Engineer</type>
+      <color>Earth</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-068H_eg.jpg">Opus IX</set>
+      <name>Mist Dragon (9-068)</name>
+      <pt></pt>
+      <text>Select 1 of the 3 following actions. 
+"Choose 1 Summon of cost 5 or less. Cancel its effect."
+"Choose 1 Forward you control. Dull it. It doesn’t receive any damage this turn."
+"Remove all the cards in your opponent's Break Zone from the game. Draw 1 card."</text>
+      <type>Summon - IV</type>
+      <color>Earth</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-069R_eg.jpg">Opus IX</set>
+      <name>Tonberry (9-069)</name>
+      <pt>4000</pt>
+      <text>During your turn, Tonberry also becomes a Forward with 4000 power.
+When Tonberry is put from the field into the Break Zone, choose 1 Forward opponent controls. Deal it 1000 damage for every 2 Forwards in your Break Zone.</text>
+      <type>Monster - Crystal Hunt - Tonberry</type>
+      <color>Earth</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-070R_eg.jpg">Opus IX</set>
+      <name>Ba'Gamnan (9-070)</name>
+      <pt>7000</pt>
+      <text>The Job Headhunter Forwards other than Ba'Gamnan you control gain +1000 power.
+When Ba'Gamnan enters the field, you may search for 1 Card Name Gijuk, Card Name Bwagi, or Card Name Rinok and play it onto the field.</text>
+      <type>Forward - XII - Headhunter</type>
+      <color>Earth</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-071C_eg.jpg">Opus IX</set>
+      <name>Bangaa (9-071)</name>
+      <pt></pt>
+      <text>When Bangaa enters the field, you may pay (Earth). When you do so, choose 1 Earth Character in your Break Zone. Add it to your hand.</text>
+      <type>Backup - XII - Standard Unit</type>
+      <color>Earth</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-072H_eg.jpg">Opus IX</set>
+      <name>Baigan (9-072)</name>
+      <pt>7000</pt>
+      <text>If Baigan is dealt 3000 damage or less, the damage becomes 0 instead.
+When Baigan is dealt 4000 damage or more, you may put Baigan into the Break Zone. When you do so, deal 7000 damage to all the Forwards opponent controls.</text>
+      <type>Forward - IV - Commander</type>
+      <color>Earth</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-073R_eg.jpg">Opus IX</set>
+      <name>Class Fifth Moogle (9-073)</name>
+      <pt></pt>
+      <text>(1)(Dull): Choose 1 Earth Forward you control. It gains +1000 power until the end of the turn.</text>
+      <type>Backup - TYPE-0 - Moogle</type>
+      <color>Earth</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-074C_eg.jpg">Opus IX</set>
+      <name>Class Tenth Moogle (9-074)</name>
+      <pt></pt>
+      <text>If Class Tenth Moogle is on the field, Class Tenth Moogle can produce Lightning CP.</text>
+      <type>Backup - TYPE-0 - Moogle</type>
+      <color>Earth</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-075R_eg.jpg">Opus IX</set>
+      <name>Yang (9-075)</name>
+      <pt>8000</pt>
+      <text>When Yang enters the field, choose 1 Forward. Until the end of the turn, it gains +2000 power and Brave. If it is a Job Monk or a Card Name Monk, until the end of the turn, it also gains "When this Forward attacks, choose 1 Forward opponent controls. Deal it damage equal to this Forward's power."</text>
+      <type>Forward - IV - Monk</type>
+      <color>Earth</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-076H_eg.jpg">Opus IX</set>
+      <name>Larkeicus (9-076)</name>
+      <pt>5000</pt>
+      <text>When Larkeicus enters the field, choose 1 Monster in your Break Zone. Add it to your hand.
+(Earth)(Earth)(Dull): Search for 1 Monster and add it to your hand.</text>
+      <type>Forward - FFCC - Doctor</type>
+      <color>Earth</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-077L_eg.jpg">Opus IX</set>
+      <name>Rydia (9-077)</name>
+      <pt>4000</pt>
+      <text>When Rydia enters the field, look at the top 5 cards of your deck. Reveal 1 Summon other than Light and Dark among them and cast it without paying the cost. Then, shuffle the other cards and return them to the bottom of your deck.
+(X)(Dull): Look at the top X cards of your deck. Reveal 1 Summon of cost X or less among them and cast it without paying the cost. Then, shuffle the other cards and return them to the bottom of your deck.</text>
+      <type>Forward - IV - Summoner</type>
+      <color>Earth</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-078C_eg.jpg">Opus IX</set>
+      <name>Rinok (9-078)</name>
+      <pt>5000</pt>
+      <text>(Earth): Choose 1 Job Headhunter. During this turn, the next damage it deals to a Forward becomes double the damage instead. You can only use this ability once per turn.</text>
+      <type>Forward - XII - Headhunter</type>
+      <color>Earth</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-079R_eg.jpg">Opus IX</set>
+      <name>Lilty (9-079)</name>
+      <pt>7000</pt>
+      <text>When Lilty blocks, choose 1 Forward in your Break Zone. Add it to your hand.</text>
+      <type>Forward - FFCC - Standard Unit</type>
+      <color>Earth</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-080C_eg.jpg">Opus IX</set>
+      <name>Regis (9-080)</name>
+      <pt></pt>
+      <text>When Regis enters the field, you may search for 1 Category XV Forward and add it to your hand.</text>
+      <type>Backup - XV - King</type>
+      <color>Earth</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-081R_eg.jpg">Opus IX</set>
+      <name>Azul (9-081)</name>
+      <pt>8000</pt>
+      <text>If Azul is dealt damage by a Forward, reduce the damage by 5000 instead.</text>
+      <type>Forward - VII - Tsviets</type>
+      <color>Lightning</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-082C_eg.jpg">Opus IX</set>
+      <name>Edea (9-082)</name>
+      <pt>8000</pt>
+      <text>[EX BURST] When Edea enters the field, choose 1 active Forward opponent controls. Deal it 1000 damage for each Lightning Character you control.</text>
+      <type>Forward - PICTLOGICA · VIII - Witch</type>
+      <color>Lightning</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-083C_eg.jpg">Opus IX</set>
+      <name>Odin (9-083)</name>
+      <pt></pt>
+      <text>[EX BURST] Choose 1 Forward of cost 2 or less. Break it. Draw 1 card.</text>
+      <type>Summon - DFF</type>
+      <color>Lightning</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-084H_eg.jpg">Opus IX</set>
+      <name>Kain (9-084)</name>
+      <pt>8000</pt>
+      <text>Before paying the cost to play Kain onto the field, you may put 1 active Lightning Backup you control into the Break Zone. If you do so, the cost for playing Kain onto the field is reduced by 5.
+When Kain enters the field, choose 1 Forward opponent controls. It loses 8000 power until the end of the turn.</text>
+      <type>Forward - LOV · IV - Dragoon</type>
+      <color>Lightning</color>
+      <manacost>8</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-085C_eg.jpg">Opus IX</set>
+      <name>Cid of Clan Gully (9-085)</name>
+      <pt></pt>
+      <text>(Lightning)(Dull), discard 1 Category FFTA2 Forward, put Cid of Clan Gully into the Break Zone: Choose 1 active Forward. Break it.</text>
+      <type>Backup - FFTA2 - Clan Leader</type>
+      <color>Lightning</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-086R_eg.jpg">Opus IX</set>
+      <name>Goblin (9-086)</name>
+      <pt>5000</pt>
+      <text>During your turn, Goblin also becomes a Forward with 5000 power.
+When Goblin deals damage to your opponent, you may put Goblin into the Break Zone. When you do so, draw 2 cards.</text>
+      <type>Monster - Crystal Hunt - Goblin</type>
+      <color>Lightning</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-087H_eg.jpg">Opus IX</set>
+      <name>Golbez (9-087)</name>
+      <pt>9000</pt>
+      <text>(Lightning)(Dull): Reveal the top card of your deck. If it is a Forward, play it onto the field. You can only use this ability during your turn.
+Double Meteor (S)(Lightning)(Lightning): Choose 1 Forward. Deal it 9000 damage. You may discard 1 Card Name Golbez. If you do so, use this special ability again without paying the cost.</text>
+      <type>Forward - IV - Warlock</type>
+      <color>Lightning</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-088C_eg.jpg">Opus IX</set>
+      <name>Seifer (9-088)</name>
+      <pt>5000</pt>
+      <text>If you control a Job Witch, Seifer gains +3000 power.</text>
+      <type>Forward - PICTLOGICA · VIII - SeeD Candidate</type>
+      <color>Lightning</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-089C_eg.jpg">Opus IX</set>
+      <name>Seeq (9-089)</name>
+      <pt></pt>
+      <text>When Seeq enters the field, choose 1 Forward opponent controls. Break it.</text>
+      <type>Backup - XII - Standard Unit</type>
+      <color>Lightning</color>
+      <manacost>7</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-090C_eg.jpg">Opus IX</set>
+      <name>Sage (9-090)</name>
+      <pt></pt>
+      <text>When Sage enters the field, you may pay (Lightning). When you do so, choose 1 Summon in your Break Zone. Add it to your hand.</text>
+      <type>Backup - FFTA2 - Standard Unit</type>
+      <color>Lightning</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-091H_eg.jpg">Opus IX</set>
+      <name>Nero (XIV) (9-091)</name>
+      <pt>7000</pt>
+      <text>When Nero (XIV) enters the field, if you control a Forward of any Element other than Lightning, until the end of the turn, Nero (XIV) gains +2000 power, Haste and Brave.
+When Nero (XIV) is added to your hand from the Break Zone, choose 1 Forward. Deal it 2000 damage.</text>
+      <type>Forward - XIV - Chief of Staff</type>
+      <color>Lightning</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-092R_eg.jpg">Opus IX</set>
+      <name>Baknamy (9-092)</name>
+      <pt>7000</pt>
+      <text>When a Lightning Forward other than Baknamy enters your field, choose 1 Forward opponent controls. Dull it.</text>
+      <type>Forward - XII - Standard Unit</type>
+      <color>Lightning</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-093H_eg.jpg">Opus IX</set>
+      <name>Bahamut ZERO (9-093)</name>
+      <pt></pt>
+      <text>Choose 1 active Forward opponent controls. Break it. Dull all the Forwards opponent controls.</text>
+      <type>Summon - TYPE-0</type>
+      <color>Lightning</color>
+      <manacost>6</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-094L_eg.jpg">Opus IX</set>
+      <name>Fusoya (9-094)</name>
+      <pt>6000</pt>
+      <text>The cost required to cast your Summons can be paid with CP of any Element.
+When Fusoya enters the field, choose 1 Forward opponent controls. Reveal the top 2 cards of your deck. Deal it 1000 damage for each CP required to play the revealed cards. Add all the revealed cards to your hand.</text>
+      <type>Forward - MOBIUS · IV - Lunarian</type>
+      <color>Lightning</color>
+      <manacost>7</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-095L_eg.jpg">Opus IX</set>
+      <name>Meia (9-095)</name>
+      <pt>7000</pt>
+      <text>At the beginning of your Attack Phase, select 1 of the 3 following actions. If you have received 5 points of damage or more, select up to 2 of the 3 following actions instead.
+"Choose 1 Forward. Until the end of the turn, it gains +1000 power and First Strike."
+"Choose 1 Forward. Dull it."
+"Choose 1 Category MOBIUS Forward other than Meia. It gains Haste until the end of the turn. "</text>
+      <type>Forward - MOBIUS - Witch</type>
+      <color>Lightning</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-096R_eg.jpg">Opus IX</set>
+      <name>Class Third Moogle (9-096)</name>
+      <pt></pt>
+      <text>(1)(Dull): Choose 1 Lightning Forward you control. It gains +1000 power until the end of the turn.</text>
+      <type>Backup - TYPE-0 - Moogle</type>
+      <color>Lightning</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-097C_eg.jpg">Opus IX</set>
+      <name>Class Sixth Moogle (9-097)</name>
+      <pt></pt>
+      <text>If Class Sixth Moogle is on the field, Class Sixth Moogle can produce Water CP.</text>
+      <type>Backup - TYPE-0 - Moogle</type>
+      <color>Lightning</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-098C_eg.jpg">Opus IX</set>
+      <name>Reeve (9-098)</name>
+      <pt></pt>
+      <text>[EX BURST] When Reeve enters the field, you may search for 1 Card Name Vincent or Card Name Cait Sith and add it to your hand.</text>
+      <type>Backup - VII - Commissioner</type>
+      <color>Lightning</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-099R_eg.jpg">Opus IX</set>
+      <name>Livia (9-099)</name>
+      <pt>9000</pt>
+      <text>When Livia enters the field, if the cost to play Livia didn't include CP of 3 or more different Elements, put Livia into the Break Zone.
+(1): Livia gains Brave until the end of the turn.
+(3): Break the Forward that blocks Livia.</text>
+      <type>Forward - XIV - Detachment Commander</type>
+      <color>Lightning</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-100R_eg.jpg">Opus IX</set>
+      <name>Ravus (9-100)</name>
+      <pt>8000</pt>
+      <text>[EX BURST] When Ravus enters the field, choose 1 Forward opponent controls. Dull it.
+When Ravus enters the field, choose 1 Forward opponent controls. If the number of Forwards your opponent controls is greater than the number of Forwards you control, dull it.</text>
+      <type>Forward - XV - Captain</type>
+      <color>Lightning</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-101R_eg.jpg">Opus IX</set>
+      <name>Adel (VIII) (9-101)</name>
+      <pt>9000</pt>
+      <text>If you don't control a Forward other than Adel (VIII), Adel (VIII) gains +1000 power and "When Adel (VIII) attacks, you may discard 1 card. When you do so, choose 1 Forward opponent controls. Return it to its owner's hand."</text>
+      <type>Forward - VIII - Witch</type>
+      <color>Water</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-102H_eg.jpg">Opus IX</set>
+      <name>Ultimecia (9-102)</name>
+      <pt></pt>
+      <text>When Ultimecia enters the field, each player reveals the top card of his/her deck. Each player who revealed a Character may play it onto the field.
+(Water)(Water)(2)(Dull), put Ultimecia into the Break Zone: Choose 1 Forward. Put it on top of its owner's deck.</text>
+      <type>Backup - DFF · VIII - Witch</type>
+      <color>Water</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-103R_eg.jpg">Opus IX</set>
+      <name>Iedolas (9-103)</name>
+      <pt></pt>
+      <text>(Dull), put Iedolas into the Break Zone: Choose 1 Summon of cost 4 or less in your Break Zone. Cast it without paying the cost. Remove that Summon from the game after use instead of putting it in the Break Zone.</text>
+      <type>Backup - XV - Emperor</type>
+      <color>Water</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-104L_eg.jpg">Opus IX</set>
+      <name>Ultros (9-104)</name>
+      <pt>9000</pt>
+      <text>When Ultros attacks, deal 2000 damage and 1000 more damage for each Card Name Ultros in your Break Zone to all the Forwards opponent controls.
+When Ultros is put from the field into the Break Zone, you may pay (Water)(Water). When you do so, search for 1 Card Name Ultros and play it onto the field dull.</text>
+      <type>Forward - VI - Octopus</type>
+      <color>Water</color>
+      <manacost>5</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-105C_eg.jpg">Opus IX</set>
+      <name>Gau (9-105)</name>
+      <pt>5000</pt>
+      <text>If you control a Monster, Gau gains +2000 power.
+If you control 3 or more Monsters, Gau gains Brave.</text>
+      <type>Forward - VI - Wild Child</type>
+      <color>Water</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-106R_eg.jpg">Opus IX</set>
+      <name>Ghis (9-106)</name>
+      <pt>8000</pt>
+      <text>When Ghis enters the field, all the Forwards opponent controls lose 1000 power until the end of the turn.
+When Ghis is dealt damage, you may remove Ghis from the game. If you do so, return Ghis onto the field dull, then remove the top 3 cards of your deck from the game.</text>
+      <type>Forward - MOBIUS · XII - Judge</type>
+      <color>Water</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-107C_eg.jpg">Opus IX</set>
+      <name>Gogo (9-107)</name>
+      <pt>7000</pt>
+      <text>(0): Choose 1 Forward opponent controls. Gogo gains his/her action abilities until the end of the turn. You can only use this ability once per turn.</text>
+      <type>Forward - VI - Mime</type>
+      <color>Water</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-108C_eg.jpg">Opus IX</set>
+      <name>White Mage (9-108)</name>
+      <pt></pt>
+      <text>When White Mage enters the field, you may pay (Water). When you do so, draw 1 card.</text>
+      <type>Backup - FFTA2 - Standard Unit</type>
+      <color>Water</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-109H_eg.jpg">Opus IX</set>
+      <name>Cecil (9-109)</name>
+      <pt>8000</pt>
+      <text>If you control 2 or more Category IV Forwards other than Cecil, Cecil gains +2000 power and Brave.
+(0): Choose 1 Forward you control other than Cecil. During this turn, the next time this Forward would take damage, reduce it by 4000 instead and deal Cecil 4000 damage. You can only use this ability once per turn.</text>
+      <type>Forward - IV - Paladin</type>
+      <color>Water</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-110C_eg.jpg">Opus IX</set>
+      <name>King of Concordia (9-110)</name>
+      <pt></pt>
+      <text>(Water)(Dull), put King of Concordia into the Break Zone: Choose 1 Forward you control. It gains +2000 power until the end of the turn. At the end of the turn, return it to its owner's hand.</text>
+      <type>Backup - TYPE-0 - King</type>
+      <color>Water</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-111H_eg.jpg">Opus IX</set>
+      <name>Banon (9-111)</name>
+      <pt>4000</pt>
+      <text>When Banon is chosen by your opponent's Summons or abilities, reveal the top card of your deck. If it is a Backup, cancel all effects choosing Banon.
+(Dull): Reveal the top card of your deck. If it is a Forward, add it to your hand.</text>
+      <type>Forward - VI - Epopt</type>
+      <color>Water</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-112C_eg.jpg">Opus IX</set>
+      <name>Paladin (9-112)</name>
+      <pt></pt>
+      <text>When Paladin enters the field, select 1 of the 2 following actions.
+"Choose 1 Job Standard Unit in your Break Zone. Add it to your hand."
+"Until the end of the turn, all the Forwards you control gain +1000 power and Brave."</text>
+      <type>Backup - FFTA2 - Standard Unit</type>
+      <color>Water</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-113H_eg.jpg">Opus IX</set>
+      <name>Famfrit (9-113)</name>
+      <pt></pt>
+      <text>Each player selects up to 2 Forwards or Monsters he/she controls (select as many as possible). Put them into the Break Zone.</text>
+      <type>Summon - MOBIUS</type>
+      <color>Water</color>
+      <manacost>6</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-114C_eg.jpg">Opus IX</set>
+      <name>Cuchulainn, the Impure (9-114)</name>
+      <pt></pt>
+      <text>[EX BURST] Choose 1 Forward. It loses all abilities until the end of the turn. Draw 1 card.</text>
+      <type>Summon - XII</type>
+      <color>Water</color>
+      <manacost>1</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-115R_eg.jpg">Opus IX</set>
+      <name>Porom (9-115)</name>
+      <pt>2000</pt>
+      <text>[EX BURST] When Porom is put from the field into the Break Zone, choose 1 Summon in your Break Zone. Add it to your hand.</text>
+      <type>Forward - PICTLOGICA · IV - White Mage</type>
+      <color>Water</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-116R_eg.jpg">Opus IX</set>
+      <name>Moogle (XII) (9-116)</name>
+      <pt>7000</pt>
+      <text>When Moogle (XII) attacks or blocks, look at the top 3 cards of your deck. Return these to the top and/or bottom of your deck in any order.</text>
+      <type>Forward - XII - Standard Unit</type>
+      <color>Water</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-117C_eg.jpg">Opus IX</set>
+      <name>Mog (VI) (9-117)</name>
+      <pt>4000</pt>
+      <text>When Mog (VI) enters the field, draw 2 cards.
+When Mog (VI) leaves the field, discard 2 cards from your hand.
+Dusk Requiem (Ｓ)(Water)(Water)(Dull): Choose 1 Forward. Reveal the top card of your deck. If the revealed card's CP cost is an even number, return chosen Forward to its owner's hand. Add the revealed card to your hand. If the revealed card's CP cost is an odd number, deal the chosen Forward 4000 damage, dull it and Freeze it. Add the revealed card to your hand.</text>
+      <type>Forward - VI - Moogle</type>
+      <color>Water</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-118R_eg.jpg">Opus IX</set>
+      <name>Malboro (9-118)</name>
+      <pt>6000</pt>
+      <text>During your turn, Malboro also becomes a Forward with 6000 power.
+When Malboro is blocked, all the Forwards opponent controls lose 2000 power until the end of the turn.</text>
+      <type>Monster - Crystal Hunt - Malboro</type>
+      <color>Water</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-119C_eg.jpg">Opus IX</set>
+      <name>Larsa (9-119)</name>
+      <pt></pt>
+      <text>(Dull): Negate all damage dealt to all the Forwards you control.</text>
+      <type>Backup - PICTLOGICA · XII - Fourthborn Son of the Emperor</type>
+      <color>Water</color>
+      <manacost>2</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-120L_eg.jpg">Opus IX</set>
+      <name>Rosa (9-120)</name>
+      <pt>7000</pt>
+      <text>If a Forward you control is dealt damage, reduce the damage by 1000 instead.
+When Rosa forms a party and attacks, activate 
+Rosa. Rosa can attack once more this turn.
+Pray (S): Reveal the top card of your deck. If it is a Water card, activate all the Forwards you control.</text>
+      <type>Forward - IV - White Mage</type>
+      <color>Water</color>
+      <manacost>3</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-121L_eg.jpg">Opus IX</set>
+      <name>Wol (9-121)</name>
+      <pt>9000</pt>
+      <text>You can only pay with Fire CP, Wind CP, Earth CP or Water CP and you must use CP of 2 or more different Elements to play Wol onto the field.
+When Wol is put from the field into the Break Zone, choose 1 Forward opponent controls. Deal it 9000 damage.</text>
+      <type>Forward - MOBIUS - Warrior of Light</type>
+      <color>Light</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-122H_eg.jpg">Opus IX</set>
+      <name>Locke (9-122)</name>
+      <pt>8000</pt>
+      <text>At the beginning of your Main Phase 1, reveal the top 2 cards of your deck. Add 1 Category VI Character among them to your hand and return the other cards to the bottom of your deck in any order.
+When Locke attacks, all the Category VI Forwards other than Locke you control gain +2000 power until the end of the turn.</text>
+      <type>Forward - DFF · VI - Treasure Hunter</type>
+      <color>Light</color>
+      <manacost>4</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-123L_eg.jpg">Opus IX</set>
+      <name>Chaos (MOBIUS) (9-123)</name>
+      <pt>9000</pt>
+      <text>When Chaos (MOBIUS) enters the field, if the cost paid to play Chaos (MOBIUS) included Fire CP, deal 5000 damage to all the Forwards opponent controls. If the cost paid to play Chaos (MOBIUS) included Ice CP, your opponent discards 1 card from his/her hand. If the cost paid to play Chaos (MOBIUS) included Lightning CP, your opponent selects 1 Monster he/she controls. Put it into the Break Zone.</text>
+      <type>Forward - MOBIUS - King</type>
+      <color>Dark</color>
+      <manacost>6</manacost>
+    </card>
+    <card>
+      <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/9-124H_eg.jpg">Opus IX</set>
+      <name>Emperor Gestahl (9-124)</name>
+      <pt></pt>
+      <text>When Emperor Gestahl enters the field, choose 1 Forward opponent controls. Break it.
+(Dull), put Emperor Gestahl into the Break Zone: Play 1 Dark Forward of cost 5 or less from your hand onto the field. You can only use this ability during your turn.</text>
+      <type>Backup - VI - Emperor</type>
+      <color>Dark</color>
+      <manacost>5</manacost>
     </card>
     <card>
       <set picURL="https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/5-001C_eg.jpg">Opus V</set>
