@@ -30,7 +30,7 @@ def addset(theset, file):
     file.write('    </set>\n')
 
 
-a = loadJson('https://fftcg.square-enix-games.com/getcards')
+a = loadJson('https://fftcg.square-enix-games.com/en/get-cards')
 b = []
 
 for x in a:

@@ -203,9 +203,9 @@ def getImage(code):
     """This function takes in a code as a string and returns and image that can be sent to a discord channel"""
 
     if re.search(r'[0-9]+\-[0-9]{3}[a-zA-Z]/[0-9]+\-[0-9]{3}[a-zA-Z]', code):
-        URL = 'https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/' + code[-6:] + '_eg.jpg'
+        URL = 'https://fftcg.cdn.sewest.net/images/cards/full/' + code[-6:] + '_eg.jpg'
     else:
-        URL = 'https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/' + code + '_eg.jpg'
+        URL = 'https://fftcg.cdn.sewest.net/images/cards/full/' + code + '_eg.jpg'
 
     try:
         card_img = urllib.request.urlopen(URL)
@@ -219,9 +219,9 @@ def getImage(code):
 
 def getimageURL(code):
     if re.search(r'[0-9]+\-[0-9]{3}[a-zA-Z]/[0-9]+\-[0-9]{3}[a-zA-Z]', code):
-        URL = 'https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/' + code[-6:] + '_eg.jpg'
+        URL = 'https://fftcg.cdn.sewest.net/images/cards/full/' + code[-6:] + '_eg.jpg'
     else:
-        URL = 'https://fftcg.square-enix-games.com/theme/tcg/images/cards/full/' + code + '_eg.jpg'
+        URL = 'https://fftcg.cdn.sewest.net/images/cards/full/' + code + '_eg.jpg'
 
     return URL
 
