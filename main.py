@@ -9,7 +9,7 @@ def addcard(theset, name, code,  pt, text, card_type, color, cost, file):
     if re.search('pr', code.lower()):
         code = code
     else:
-        code = code[:-1]
+        code = code
 
     file.write('    <card>\n')
     file.write('      <set picURL="' + getimageURL(code_for_image) + '">' + theset + '</set>\n')
