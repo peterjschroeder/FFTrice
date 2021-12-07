@@ -12,13 +12,15 @@ def addcard(theset, name, code,  pt, text, card_type, color, cost, file):
         code = code
 
     file.write('    <card>\n')
-    file.write('      <set picURL="' + getimageURL(code_for_image) + '">' + theset + '</set>\n')
     file.write('      <name>' + name + ' (' + code + ')' + '</name>\n')
-    file.write('      <pt>' + pt + '</pt>\n')
     file.write('      <text>' + prettyTrice(text) + '</text>\n')
+    file.write('      <prop>\n')
     file.write(card_type)
-    file.write('      <color>' + prettyTrice(color) + '</color>\n')
-    file.write('      <manacost>' + prettyTrice(cost) + '</manacost>\n')
+    file.write('        <manacost>' + prettyTrice(cost) + '</manacost>\n')
+    file.write('        <colors>' + prettyTrice(color) + '</colors>\n')
+    file.write('        <pt>' + pt + '</pt>\n')
+    file.write('      </prop>\n')
+    file.write('      <set picurl="' + getimageURL(code_for_image) + '">' + theset + '</set>\n')
     file.write('    </card>\n')
 
 
@@ -27,6 +29,7 @@ def addset(theset, file):
     file.write('      <name>' + theset + '</name>\n')
     file.write('      <longname>' + theset + '</longname>\n')
     file.write('      <settype>Custom</settype>\n')
+    file.write('      <releasedate></releasedate>\n')
     file.write('    </set>\n')
 
 
@@ -38,7 +41,7 @@ for x in a:
 
 with open('cards.xml', 'a+', encoding='utf8') as myfile:
     myfile.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-    myfile.write('<cockatrice_carddatabase version="3">\n')
+    myfile.write('<cockatrice_carddatabase version="4">\n')
     myfile.write('  <sets>\n')
 
     for x in set(b):
@@ -51,7 +54,7 @@ with open('cards.xml', 'a+', encoding='utf8') as myfile:
         card_name = x['Name_EN']
         card_name = card_name.replace(u"\u00FA", "u")  # Addresses u Cuchulainn, the Impure 2-133R
 
-        card_type = str('      <type>' + prettyTrice(x['Type_EN']) + ' - '+ prettyTrice(x['Category_1']) + ' - ' + prettyTrice(x['Job_EN']) + '</type>\n')
+        card_type = str('        <type>' + prettyTrice(x['Type_EN']) + ' - '+ prettyTrice(x['Category_1']) + ' - ' + prettyTrice(x['Job_EN']) + '</type>\n')
         card_type = card_type.replace(' - ' + u"\u2015" + '</type>', '</type>')
         card_type = card_type.replace(' - </type>', '</type>')
 
