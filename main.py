@@ -21,6 +21,8 @@ def addcard(theset, name, code,  pt, text, card_type, color, cost, file):
     file.write('        <pt>' + pt + '</pt>\n')
     file.write('      </prop>\n')
     file.write('      <set picurl="' + getimageURL(code_for_image) + '">' + theset + '</set>\n')
+    file.write('      <tablerow>%s</tablerow>\n' % ('0' if 'Backup' in card_type 
+        else '2' if 'Forward' in card_type else '3' if re.search(r'\bSummon\b', card_type) else '1'))
     file.write('    </card>\n')
 
 
