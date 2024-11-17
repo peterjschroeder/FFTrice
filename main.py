@@ -55,7 +55,7 @@ with open('cards.xml', 'w', encoding='utf8') as myfile:
 
     for x in a:
         card_name = x['name_en']
-        card_name = card_name.replace(u"\u00FA", "u")  # Addresses u Cuchulainn, the Impure 2-133R
+        card_name = card_name.replace('&', '&amp;').replace(u"\u00FA", "u")  # Addresses u Cuchulainn, the Impure 2-133R
 
         # FIXME: Some entries are missing category_1
         try:
@@ -73,7 +73,10 @@ with open('cards.xml', 'w', encoding='utf8') as myfile:
 
         card_cost = x['cost']
 
-        card_text = x['text_en']
+        card_text = x['text_en'].replace('&', '&amp;')
+
+        if "Switch Schemata" in card_text:
+            print(card_text)
 
         # FIXME: Some entries are missing element
         try:
