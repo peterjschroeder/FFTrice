@@ -18,7 +18,8 @@ def addcard(theset, name, code,  pt, text, card_type, color, cost, file):
     file.write(card_type)
     file.write('        <manacost>' + prettyTrice(cost) + '</manacost>\n')
     file.write('        <colors>' + prettyTrice(color) + '</colors>\n')
-    file.write('        <pt>' + pt + '</pt>\n')
+    if int(pt) > 0:
+        file.write('        <pt>' + pt + '</pt>\n')
     file.write('      </prop>\n')
     file.write('      <set picurl="' + getimageURL(code_for_image) + '">' + theset + '</set>\n')
     file.write('      <tablerow>%s</tablerow>\n' % ('0' if 'Backup' in card_type 
@@ -35,13 +36,13 @@ def addset(theset, file):
     file.write('    </set>\n')
 
 
-a = loadJson('https://fftcg.square-enix-games.com/en/get-cards')
+a = loadJson('https://fftcg.square-enix-games.com/en/get-cards', {"language":"en","text":""})
 b = []
 
 for x in a:
-    b.append(x['Set'])
+    b.append(x['set'][0])
 
-with open('cards.xml', 'a+', encoding='utf8') as myfile:
+with open('cards.xml', 'w', encoding='utf8') as myfile:
     myfile.write('<?xml version="1.0" encoding="UTF-8"?>\n')
     myfile.write('<cockatrice_carddatabase version="4">\n')
     myfile.write('  <sets>\n')
@@ -53,26 +54,34 @@ with open('cards.xml', 'a+', encoding='utf8') as myfile:
     myfile.write('  <cards>\n')
 
     for x in a:
-        card_name = x['Name_EN']
+        card_name = x['name_en']
         card_name = card_name.replace(u"\u00FA", "u")  # Addresses u Cuchulainn, the Impure 2-133R
 
-        card_type = str('        <type>' + prettyTrice(x['Type_EN']) + ' - '+ prettyTrice(x['Category_1']) + ' - ' + prettyTrice(x['Job_EN']) + '</type>\n')
+        # FIXME: Some entries are missing category_1
+        try:
+            card_type = str('        <type>' + prettyTrice(x['type_en']) + ' - '+ prettyTrice(x['category_1']) + ' - ' + prettyTrice(x['job_en']) + '</type>\n')
+        except:
+            card_type = str('        <type>' + prettyTrice(x['type_en']) + ' - ' + prettyTrice(x['job_en']) + '</type>\n')
         card_type = card_type.replace(' - ' + u"\u2015" + '</type>', '</type>')
         card_type = card_type.replace(' - </type>', '</type>')
 
-        card_power = x['Power']
+        card_power = x['power']
         card_power = card_power.replace(u"\uFF0D", "")
         card_power = card_power.replace(u"\u2015", "")
 
-        card_code = x['Code']
+        card_code = x['code']
 
-        card_cost = x['Cost']
+        card_cost = x['cost']
 
-        card_text = x['Text_EN']
+        card_text = x['text_en']
 
-        card_element = x['Element']
+        # FIXME: Some entries are missing element
+        try:
+            card_element = x['element'][0]
+        except:
+            card_element = ""
 
-        card_set = x['Set']
+        card_set = x['set'][0]
 
         if re.search(r'\d-\d{3}[a-zA-Z]/', card_code):
             b = card_code.replace('(' ,'').replace(')', '').split('/')

@@ -1,6 +1,6 @@
 import json
 import re
-import urllib.request
+import requests
 import io
 
 # Helpful jq
@@ -229,20 +229,18 @@ def getimageURL(code):
 # data - untouched JSON from file
 # card_list - list of cards
 
-def loadJson(path):
+def loadJson(path, post):
     try:
-        data = urllib.request.urlopen(path)
+        data = requests.post(path, json=post)
     except:
         return
     else:
-        content = data.read().decode('utf-8')
-        data = json.loads(content)
+        data = json.loads(data.content)
         cards_list = data['cards']
 
         return cards_list
 
 def prettyTrice(string):
-
     # Weird bracket removal:
     string = string.replace(u"\u300a", '(')
     string = string.replace(u"\u300b", ')')
