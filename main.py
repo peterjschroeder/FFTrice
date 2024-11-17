@@ -2,7 +2,7 @@ from fftcg_parser import *
 import re
 
 
-def addcard(theset, name, code,  pt, text, card_type, color, cost, file):
+def addcard(theset, name, code,  pt, text, card_type_main, card_type, color, cost, file):
 
     code_for_image = code
 
@@ -15,6 +15,7 @@ def addcard(theset, name, code,  pt, text, card_type, color, cost, file):
     file.write('      <name>' + name + ' (' + code + ')' + '</name>\n')
     file.write('      <text>' + prettyTrice(text) + '</text>\n')
     file.write('      <prop>\n')
+    file.write(card_type_main)
     file.write(card_type)
     file.write('        <manacost>' + prettyTrice(cost) + '</manacost>\n')
     file.write('        <colors>' + prettyTrice(color) + '</colors>\n')
@@ -59,8 +60,10 @@ with open('cards.xml', 'w', encoding='utf8') as myfile:
 
         # FIXME: Some entries are missing category_1
         try:
+            card_type_main = str('        <maintype>' + prettyTrice(x['type_en']) + '</maintype    >\n')
             card_type = str('        <type>' + prettyTrice(x['type_en']) + ' - '+ prettyTrice(x['category_1']) + ' - ' + prettyTrice(x['job_en']) + '</type>\n')
         except:
+            card_type_main = str('        <maintype></maintype    >\n')
             card_type = str('        <type>' + prettyTrice(x['type_en']) + ' - ' + prettyTrice(x['job_en']) + '</type>\n')
         card_type = card_type.replace(' - ' + u"\u2015" + '</type>', '</type>')
         card_type = card_type.replace(' - </type>', '</type>')
@@ -74,9 +77,6 @@ with open('cards.xml', 'w', encoding='utf8') as myfile:
         card_cost = x['cost']
 
         card_text = x['text_en'].replace('&', '&amp;')
-
-        if "Switch Schemata" in card_text:
-            print(card_text)
 
         # FIXME: Some entries are missing element
         try:
@@ -97,10 +97,10 @@ with open('cards.xml', 'w', encoding='utf8') as myfile:
             #      "Code": "1-011C",
             #      "Code": "6-006C/1-011C",
 
-            addcard(card_set, card_name, str(b[0]), card_power, card_text, card_type, card_element, card_cost, myfile)
+            addcard(card_set, card_name, str(b[0]), card_power, card_text, card_type_main, card_type, card_element, card_cost, myfile)
 
         else:
-            addcard(card_set, card_name, card_code, card_power, card_text, card_type, card_element, card_cost, myfile)
+            addcard(card_set, card_name, card_code, card_power, card_text, card_type_main, card_type, card_element, card_cost, myfile)
 
     myfile.write('  </cards>\n')
     myfile.write('</cockatrice_carddatabase>')
